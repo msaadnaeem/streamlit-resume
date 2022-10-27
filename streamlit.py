@@ -6,7 +6,7 @@ import plotly.express as px
 colLeft,colRight=st.columns(2)
 with colLeft:
     st.title('Resume')
-    st.header('Muhammad Saad Naeem')
+    st.header('John Doe')
 
 with colRight:
     pic=Image.open('dp.png')
@@ -16,8 +16,8 @@ with colRight:
 colLeft,colRight=st.columns(2)
 with colLeft:
     st.subheader('Bio Data')
-    st.write('Name: Muhammad Saad Naeem')
-    st.write('Email: rsnthesmart@gmail.com')
+    st.write('Name: John Doe')
+    st.write('Email: johndoe@gmail.com')
 
 with colRight:
     st.subheader('Education')
