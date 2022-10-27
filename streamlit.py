@@ -24,8 +24,8 @@ with colRight:
     st.write('Bachelors: Oxford University')
 
 skills={
-    'Skills':['Python','SQL','Excel'],
-    'Levels':[30,20,50]
+    'Skills':['Python','SQL','Javascript','TypeScript','React JS','Express.js','Node.js','PostgreSQL'],
+    'Levels':[10,10,20,10,20,10,10,10]
 }
 
 skillsDf=pd.DataFrame(skills)
